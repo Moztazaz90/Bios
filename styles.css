@@ -1,0 +1,64 @@
+body {
+    font-family: RockWell, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ade454cb;
+}
+
+/* Estilos para el encabezado */
+header {
+    background-color: #1d8a4e;
+    color: #eeefc8;
+    padding: 240px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 100px;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 140;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 50px;
+}
+
+header nav ul li a {
+    color: #eeefc8;
+    text-decoration: none;
+}
+
+/* Estilos para las secciones */
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: #eeefc8;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    color: #1d6b35;
+}
+
+/* Estilos para el pie de página */
+footer {
+    background-color: #1d8a4e;
+    color: #eeefc8;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Estilos para enlaces */
+a {
+    color: #1d8a4e;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
